@@ -30,7 +30,7 @@ export PATH=$PATH:~/anaconda/bin
 ### Windows (powershell)
 
 ```
-$env:Path = $env:Path + ";" + ".\AppData\Local\Continuum\Anaconda" + ";" + ".\AppData\Local\Continuum\Anaconda\Scripts"
+$env:Path = $env:Path + ";" + "$HOME\AppData\Local\Continuum\Anaconda" + ";" + "$HOME\AppData\Local\Continuum\Anaconda\Scripts"
 ```
 
 Note: to paste in powershell, just right-click with your mouse.
