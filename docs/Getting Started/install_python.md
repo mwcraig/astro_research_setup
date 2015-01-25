@@ -19,4 +19,18 @@ Download anaconda now and install it (the python 2.7 version, which is the defau
 
 That is almost certainly because anaconda wasn't made your default python installation (which is the right choice if you are using python for another course).
 
-## Goo
+Each time you want to use anaconda, open a terminal window and type (or copy/paste) the command below appropriate for your operating system.
+
+### Mac/Linux
+
+```bash
+export PATH=$PATH:~/anaconda/bin
+```
+
+### Windows (powershell)
+
+```
+$env:Path = $env:Path + ";" + ".\AppData\Local\Continuum\Anaconda" + ";" + ".\AppData\Local\Continuum\Anaconda\Scripts"
+```
+
+Note: to paste in powershell, just right-click with your mouse.
