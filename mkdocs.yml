@@ -2,3 +2,8 @@ site_name: MSUM Astronomy Research Guide
 theme: readthedocs
 site_favicon: favicon.ico
 repo_url: https://github.com/mwcraig/astro_research_setup
+pages:
+    - ['index.md', 'Introduction']
+    - ['getting-started/install_python.md', 'Getting Started', 'Install python']
+    - ['getting-started/learn_terminal.md', 'Getting Started', 'Learn to use the terminal']
+    - ['getting-started/install-astro-stuff.md', 'Getting Started', 'Install astronomy-specifc packages']
