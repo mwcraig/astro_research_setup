@@ -1,3 +1,4 @@
 site_name: MSUM Astronomy Research Guide
 theme: readthedocs
 site_favicon: favicon.ico
+repo_url: https://github.com/mwcraig/astro_research_setup
