@@ -9,21 +9,20 @@ We use these packages regularly:
 
 # Installation instructions
 
-Though [reducer](https://github.com/mwcraig/reducer) is given as the example below, any of the programs above can be installed the same way (except astropy...do **not** do `pip install astropy` in anaconda).
+The instructions below should work for all platforms...if you run into problems please let us know!
 
-## Mac/Linux
-
-You can install [reducer](https://github.com/mwcraig/reducer) and all of its dependencies with
+## Install astropy and affiliated projects
 
 ```
-$ pip install --pre reducer
+conda install -c astropy ccdproc
 ```
 
-## Windows
+Note: all of the astropy-related packages are also available via pip. `conda` avoids compiling on Windows.
 
-Though `pip` might work, you are better off trying to install conda package instead because they avoid the need for you to compile anything:
+## Install the remaining software
+
+You can install [reducer](https://reducer.readthedocs.org) and all of its dependencies with
 
 ```
-> conda install -c mwcraig reducer
+pip install msumastro reducer
 ```
-

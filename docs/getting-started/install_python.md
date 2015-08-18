@@ -8,7 +8,7 @@ There are several ways to install python. For research it is convenient to have 
 
 The best option currently is the [anaconda python distribution](http://continuum.io/downloads).
 
-Download anaconda now and install it (the python 2.7 version, which is the default). **If you are using python for some other purpose**, like a computer science course, be sure to unselect the option during installation that makes anaconda's python your default python. If you accidentally forget to do that it is easy to fix later.
+Download anaconda now and install it (the python 2.7 version, which is the default, or 3.4). **If you are using python for some other purpose**, like a computer science course, be sure to unselect the option during installation that makes anaconda's python your default python. If you accidentally forget to do that it is easy to fix later.
 
 # Try your installation
 
