@@ -27,13 +27,13 @@ If, instead, you see something like this:
 then you need to install reducer. This should work:
 
 ```
-conda install -c mwcraig reducer
+pip install reducer
 ```
 
 Unless you have just installed `reducer` a moment ago you should try updating it in case anything has changed:
 
 ```
-conda update -c mwcraig reducer
+pip install --update --no-deps reducer
 ```
 
 ## Using reducer
