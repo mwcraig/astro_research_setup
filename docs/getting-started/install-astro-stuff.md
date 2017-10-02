@@ -14,7 +14,7 @@ The instructions below should work for all platforms...if you run into problems 
 ## Install astropy and affiliated projects
 
 ```
-conda install -c astropy ccdproc
+conda install ccdproc photutils ipywidgets
 ```
 
 Note: all of the astropy-related packages are also available via pip. `conda` avoids compiling on Windows.
