@@ -34,3 +34,12 @@ $env:Path = $env:Path + ";" + "$HOME\AppData\Local\Continuum\Anaconda" + ";" + "
 ```
 
 Note: to paste in powershell, just right-click with your mouse.
+
+## Configure a couple of extra anaconda channels for astronomy-related packages 
+
+The two channels you definitely want to add are `conda-forge` and `astropy`. Do that like this:
+
+```bash
+conda config --append channels astropy 
+conda config --append channels conda-forge
+```
