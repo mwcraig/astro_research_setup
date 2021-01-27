@@ -1,4 +1,6 @@
-# Install the miniconda python distribution
+# Install Python
+
+## Install the miniconda python distribution
 
 There are several ways to install python. For research it is convenient to have an installation that:
 

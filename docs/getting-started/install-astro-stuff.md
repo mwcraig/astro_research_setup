@@ -1,10 +1,6 @@
 # Install these astronomy-specific python packages
 
-There are several packages used in this research. The steps below walk you through install them.
-
-# Installation instructions
-
-The instructions below should work for all platforms...if you run into problems please let us know!
+There are several packages used in this research. The steps below walk you through install them. The instructions below should work for all platforms...if you run into problems please let us know!
 
 ## Make an "environment" just for astro research 
 
