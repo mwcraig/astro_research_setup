@@ -1,11 +1,12 @@
 site_name: MSUM Astronomy Research Guide
 theme: readthedocs
-site_favicon: favicon.ico
+# site_favicon: favicon.ico
 repo_url: https://github.com/mwcraig/astro_research_setup
-pages:
-    - ['index.md', 'Introduction']
-    - ['getting-started/install_python.md', 'Getting Started', 'Install python']
-    - ['getting-started/install-astro-stuff.md', 'Getting Started', 'Install astronomy-specifc packages']
-    - ['getting-started/run-notebooks.md', 'Getting Started', 'Using jupyter notebooks']
-    - ['calibration/get_images.md', 'Image Calibration', 'Get the images you need']
-    - ['calibration/reducer.md', 'Image Calibration', 'Reduce (calibrate) your images']
+nav:
+  - Home: 'index.md'
+  - 'Getting Started':
+    - 'Install python': 'getting-started/install_python.md'
+    - 'Install astronomy-specifc packages': 'getting-started/install-astro-stuff.md'
+    - 'Using jupyter notebooks': 'getting-started/run-notebooks.md'
+  - 'Image Calibration':
+    - 'Reduce (calibrate) your images': 'calibration/reducer.md'
