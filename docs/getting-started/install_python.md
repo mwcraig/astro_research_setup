@@ -10,7 +10,7 @@ There are several ways to install python. For research it is convenient to have 
 
 The best option currently is the [miniconda python distribution](https://docs.conda.io/en/latest/miniconda.html).
 
-Download anaconda now and install it (Python 3.8; on Windows choose 64-bit, on Mac it is easier to use the `pkg` installer). 
+Download anaconda now and install it (Python 3.9; on Windows choose 64-bit, on Mac it is easier to use the `pkg` installer). 
 
 **If you are using python for some other purpose**, like a computer science course, be sure to unselect the option during installation that makes anaconda's python your default python. If you accidentally forget to do that it is easy to fix later.
 
@@ -18,16 +18,16 @@ Download anaconda now and install it (Python 3.8; on Windows choose 64-bit, on M
 
 1. Open a terminal window
     + On **Windows**: Click the start menu, then start typing "Anaconda Prompt" (but without the quotes) and select `Anaconda Prompt`
-    + On **Mac**, type CMd-space to bring up the search box and start typing "Terminal" (but without the quotes) and select `Terminal`.
+    + On **Mac**, type CMD-space to bring up the search box and start typing "Terminal" (but without the quotes) and select `Terminal`.
 2. Type `conda list` in the terminal and then hit `Enter`. You should see a  list of installed python packages.
 
 ## Did you see an error instead of a list?
 
-That is almost certainly because anaconda wasn't made your default python installation (which is the right choice if you are using python for another course).
+That is almost certainly because miniconda wasn't made your default python installation (which is the right choice if you are using python for another course).
 
-Each time you want to use anaconda, open a terminal window and type (or copy/paste) the command below appropriate for your operating system.
+Each time you want to use miniconda, open a terminal window and type (or copy/paste) the command below appropriate for your operating system.
 
-## Configure a couple of extra anaconda channels for astronomy-related packages 
+## Configure a couple of extra anaconda channels for astronomy-related packages
 
 The two channels you definitely want to add are `conda-forge` and `astropy`. Do that like this:
 
