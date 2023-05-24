@@ -6,7 +6,8 @@ nav:
   - Home: 'index.md'
   - 'Getting Started':
     - 'Install python': 'getting-started/install_python.md'
-    - 'Install astronomy-specifc packages': 'getting-started/install-astro-stuff.md'
+    - 'Get a development copy of stellarphot': 'getting-started/stellarphot-development-install.md'
+    - 'Install astronomy-specific packages': 'getting-started/install-astro-stuff.md'
     - 'Using jupyter notebooks': 'getting-started/run-notebooks.md'
   - 'Image Calibration':
     - 'Reduce (calibrate) your images': 'calibration/reducer.md'
