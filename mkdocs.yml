@@ -7,6 +7,7 @@ nav:
   - 'Getting Started':
     - 'Install python': 'getting-started/install_python.md'
     - 'Get a development copy of stellarphot': 'getting-started/stellarphot-development-install.md'
+    - 'Learn about conda environments': 'getting-started/environments-new.md'
     - 'Install astronomy-specific packages': 'getting-started/install-astro-stuff.md'
     - 'Using jupyter notebooks': 'getting-started/run-notebooks.md'
   - 'Image Calibration':

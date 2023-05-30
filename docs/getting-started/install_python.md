@@ -8,9 +8,9 @@ There are several ways to install python. For research it is convenient to have 
 + Does not interfere with any other python installation you already have (e.g. for the intro computer science courses or vpython).
 + Works on Windows, Mac, or Linux.
 
-The best option currently is the [miniconda python distribution](https://docs.conda.io/en/latest/miniconda.html).
+The best option currently is the [miniforge python distribution](https://github.com/conda-forge/miniforge).
 
-Download anaconda now and install it (Python 3.9; on Windows choose 64-bit, on Mac it is easier to use the `pkg` installer). 
+Download anaconda now and install it.
 
 **If you are using python for some other purpose**, like a computer science course, be sure to unselect the option during installation that makes anaconda's python your default python. If you accidentally forget to do that it is easy to fix later.
 
@@ -32,6 +32,6 @@ Each time you want to use miniconda, open a terminal window and type (or copy/pa
 The two channels you definitely want to add are `conda-forge` and `astropy`. Do that like this:
 
 ```bash
-conda config --append channels astropy 
+conda config --append channels astropy
 conda config --append channels conda-forge
 ```

@@ -16,7 +16,7 @@ You only need to make the environment once, but you will need activate it *every
 
 ## Activate your new environment
 
-Type this in the terminal and push `Enter` to activate the environment (i.e. make it the Pythn you are using):
+Type this in the terminal and push `Enter` to activate the environment (i.e. make it the Python you are using):
 
 ```
 conda activate astro_research
