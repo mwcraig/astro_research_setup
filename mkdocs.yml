@@ -11,4 +11,5 @@ nav:
     - 'Install astronomy-specific packages': 'getting-started/install-astro-stuff.md'
     - 'Using jupyter notebooks': 'getting-started/run-notebooks.md'
   - 'Image Calibration':
+    - 'Settings for calibration CG16M': 'calibration/camera-apogee-alta-cg16m.md'
     - 'Reduce (calibrate) your images': 'calibration/reducer.md'
