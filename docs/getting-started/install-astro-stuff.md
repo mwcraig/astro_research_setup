@@ -9,7 +9,7 @@ Doing this creates a "virtual" copy of your python installation. If something go
 To make the environment copy/paste this into your terminal and hit `Enter` to run it. You will be asked to confirm that you want to create the environment:
 
 ```
-conda create -n astro_research python=3.10
+mamba create -n astro_research python=3.11
 ```
 
 You only need to make the environment once, but you will need activate it *every time you use the environment*.
@@ -19,7 +19,7 @@ You only need to make the environment once, but you will need activate it *every
 Type this in the terminal and push `Enter` to activate the environment (i.e. make it the Python you are using):
 
 ```
-conda activate astro_research
+mamba activate astro_research
 ```
 
 ## Install astropy, its affiliated projects, and more
@@ -27,5 +27,5 @@ conda activate astro_research
 Copy and paste the long line below into your terminal and press enter to run it. After a couple of minutes you should get a prompt asking you to confirm that you want to install this stuff.
 
 ```
-conda install -c conda-forge astropy=5 astroquery ccdproc ginga ipywidgets bottleneck photutils matplotlib pandas gatspy pyyaml astrowidgets jupyterlab=3 ipympl reducer stellarphot
+mamba install -c conda-forge astropy=5 astroquery ccdproc ginga ipywidgets bottleneck photutils matplotlib pandas gatspy pyyaml astrowidgets jupyterlab=3 ipympl reducer pydantic=1 ipyautoui batman-package
 ```
