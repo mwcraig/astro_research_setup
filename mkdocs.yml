@@ -12,4 +12,5 @@ nav:
     - 'Using jupyter notebooks': 'getting-started/run-notebooks.md'
   - 'Image Calibration':
     - 'Settings for calibration CG16M': 'calibration/camera-apogee-alta-cg16m.md'
+    - 'Settings for calibration Apogee U9': 'calibration/camera-apogee-u9.md'
     - 'Reduce (calibrate) your images': 'calibration/reducer.md'
